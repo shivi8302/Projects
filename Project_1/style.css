@@ -1,0 +1,250 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,900&family=Montserrat&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+/* @import url(https://fonts.bunny.net/css?family=estonia:400); */
+/* @import url(https://fonts.bunny.net/css?family=adamina:400|allison:400); */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+html,body{
+    user-select: none;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #82616d;
+}
+
+#main #mtext{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-25%,-50%);
+    z-index: 2;
+}
+#mtext h1{
+    line-height: 0.9;
+    white-space: nowrap;
+    font-size: 9vw;
+    font-family:'voyage', handwriting;
+    font-weight:lighter;
+    color: White;
+}
+#mtext h3{
+    margin-left: 4%;
+    line-height: 1;
+    user-select: none;
+    white-space: nowrap;
+    font-size: 3vw;
+    font-family: 'Montserrat', handwriting;
+    font-weight: normal;
+    color: white;
+}
+
+#left{
+    position: relative;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+}
+#nav{
+    font-family: "Gilroy-Italic" , sans-serif;
+    display: flex;
+    width: 100%;
+    padding: 50px 60px;
+    gap: 100px;
+    align-items: center;
+}
+#nav h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+#centreimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 40%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1586351012965-861624544334?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#centreimg #text{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    color: white;
+    bottom: -30%;
+}
+
+#text #parts{
+    width: 30%;
+}
+#parts h5{
+    margin-bottom: 2px;
+    font-size: 400;
+}
+
+#text #para{
+    width: 70%;
+}
+#para #p{
+    line-height: 30px;
+    font-size: 5px;
+    font-weight: 300;
+}
+#scroll{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0%;
+    left: 10%;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+}
+
+#scroll #line{
+    width: 70px;
+    height: 3px;
+    background-color: white;
+}
+#scroll h4{
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+}
+
+
+#centre{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1631284440869-2aae12eebb6f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#NEXT{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 39%;
+    right: 10%;
+    transform-origin: 0% 50%;
+    z-index: 2;
+}
+    
+
+
+#NEXT #line1{
+    width: 40px;
+    height: 3px;
+    background-color: rgb(8, 7, 7);
+}
+#NEXT #line2{
+    width: 40px;
+    height: 3px;
+    background-color: rgb(238, 233, 233);
+}
+#NEXT h4{
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+}
+
+#centre #card{
+    display: flex;
+    width: 240px;
+    height: 170px;
+    background-color: black;
+    position: absolute;
+    bottom: 5%;
+    right: -4%;
+    z-index: 5;
+}
+
+#card #cicons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 800;
+    font-weight: 800;
+    height: 100%;
+    width: 25%;
+    background-color: aliceblue;
+
+}
+
+#card #cimage{
+    height: 100%;
+    width: 75%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1667680758306-bec4a3de4905?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#elements{
+    width: 10%;
+    height: 100%;
+    background-color:#82616d;
+
+}
+
+#elements #relement{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 155%;
+    height: 70%;
+    color: white;
+}
+
+#search{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#relement #links{   
+    color: rgb(10, 0, 0);
+    display: flex;
+    gap: 50px;
+    transform:translatey(-140px) rotate(270deg);
+}
+
+#links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
