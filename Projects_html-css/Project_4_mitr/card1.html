@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coder Swipe Deck</title>
+  <link rel="stylesheet" href="card1.css" />
+</head>
+<body>
+
+  <div id="container">
+    <div class="card" id="profileCard">
+      <img src="" alt="Coder Image" id="profileImage" />
+      <div class="card-content">
+        <h2 id="profileName">Name</h2>
+        <p id="profileBio">Bio</p>
+        <div class="skills" id="skillsList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chat Section -->
+  <div class="section" id="chatSection">
+    <h2>💬 Chat</h2>
+    <p>You're now chatting with <span id="chatUser">...</span></p>
+    <button onclick="closeChat()">Close Chat</button>
+  </div>
+
+  <!-- Friends List -->
+  <div class="section" id="friendsSection">
+    <h2>🧑‍🤝‍🧑 Your Connections</h2>
+    <ul id="friendsList"></ul>
+  </div>
+
+  <script src="card1.js"></script>
+</body>
+</html>
